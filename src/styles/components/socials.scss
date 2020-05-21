@@ -1,0 +1,22 @@
+.socials {
+  width: 140px;
+  height: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.socials__list {
+  width: 140px;
+  height: 22px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.socials__item {
+  width: 32px;
+  height: 22px;
+  background-color: cyan;
+}

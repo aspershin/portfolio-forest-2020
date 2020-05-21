@@ -1,0 +1,37 @@
+.main-title {
+  width: 350px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-title__image {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.main-title__image-pic {
+  width: 140px;
+  height: 140px;
+  background-position: center center;
+  background-size: cover;
+}
+
+.main-title__name {
+  height: 40px;
+  color: #fff;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 28px;
+  margin-top: 20px;
+}
+
+.main-title__description {
+  height: 25px;
+  color: rgba($color: #fff, $alpha: .7);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 16px;
+  margin-top: 10px;
+}

@@ -1,0 +1,48 @@
+// desktop 1200px
+@media screen and (max-width: 1200px) {
+
+}
+
+// desktop 1800px
+@media screen and (min-width: 1300px) {
+  .wrapper {
+    background: url('../../assets/img/bg/welcome-bg-1800.jpg') center center no-repeat;
+    background-size: cover;
+  }
+
+  .auth-button {
+    margin-right: 100px;
+    margin-top: 24px;
+  }
+}
+
+// tablet
+@media screen and (max-width: 768px) {
+  .wrapper {
+    background: url('../../assets/img/bg/welcome-bg-768.jpg') center center no-repeat;
+    background-size: cover;
+  }
+}
+// phones
+@media screen and (max-width: 480px) {
+  .wrapper {
+    background: url('../../assets/img/bg/welcome-bg-320.jpg') center center no-repeat;
+    background-size: cover;
+  }
+
+  .auth-button {
+    margin-right: 0;
+    margin-top: 10px;
+  }
+
+  .welcome-footer {
+    margin-bottom: 10px;
+    flex-direction: column;
+    height: 60px;
+    align-items: center;
+  }
+
+  .welcome-footer__div {
+    border: none;
+  }
+}

@@ -1,0 +1,25 @@
+.welcomeLoginButton {
+  width: inherit;
+  height: inherit;
+}
+
+.welcomeLoginButton__link {
+  width: inherit;
+  height: inherit;
+  text-decoration: none;
+}
+
+.welcomeLoginButton__link-div {
+  width: inherit;
+  height: inherit;
+  background-color: #6c9c5a;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcomeLoginButton__link-div:hover {
+  background-color: #4e8839;
+}
