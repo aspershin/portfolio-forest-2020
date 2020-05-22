@@ -1,6 +1,7 @@
 .auth-link {
   text-decoration: none;
 }
+
 .auth-button {
   width: 180px;
   height: 45px;
@@ -18,17 +19,17 @@
   @include desktopWide {
     margin-right: 100px;
     margin-top: 24px;
-  };
+  }
 
   @include tablets {
     margin-right: 0;
     margin-top: 10px;
-  };
+  }
 
   @include phones {
     margin-right: 0;
     margin-top: 10px;
-  };
+  }
 }
 
 .auth-button:hover {
