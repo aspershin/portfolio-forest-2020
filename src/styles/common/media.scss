@@ -1,10 +1,10 @@
 // desktop 1200px
-@media screen and (max-width: 1200px) {
+// @media screen and (max-width: 1200px) {
 
-}
+// }
 
 // desktop 1800px
-@media screen and (min-width: 1300px) {
+@media all and (min-width: 1300px) {
   .wrapper {
     background: url('../../assets/img/bg/welcome-bg-1800.jpg') center center no-repeat;
     background-size: cover;
@@ -17,17 +17,30 @@
 }
 
 // tablet
-@media screen and (max-width: 768px) {
+@media all and (max-width: 768px) {
   .wrapper {
     background: url('../../assets/img/bg/welcome-bg-768.jpg') center center no-repeat;
     background-size: cover;
   }
+
+  .auth-button {
+    margin-right: 0;
+    margin-top: 10px;
+  }
+
+  .welcome-header {
+    justify-content: center;
+  }
 }
 // phones
-@media screen and (max-width: 480px) {
+@media all and (max-width: 480px) {
   .wrapper {
     background: url('../../assets/img/bg/welcome-bg-320.jpg') center center no-repeat;
     background-size: cover;
+  }
+
+  .welcome-header {
+    justify-content: center;
   }
 
   .auth-button {
