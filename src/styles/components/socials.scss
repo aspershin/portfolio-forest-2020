@@ -18,5 +18,16 @@
 .socials__item {
   width: 32px;
   height: 22px;
-  background-color: cyan;
+  vertical-align: middle;
+}
+
+.socials__item-pic {
+  width: 32px;
+  height: 22px;
+  vertical-align: middle;
+  fill: #fff;
+}
+
+.socials__item-pic:hover {
+  fill: #4e8839;
 }

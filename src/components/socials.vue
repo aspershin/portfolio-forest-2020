@@ -1,10 +1,44 @@
 <template lang="pug">
   .socials
     .socials__list
-      .socials__item
-      .socials__item
-      .socials__item
+      .socials__item(
+        v-for="link in links"
+        :link="link"
+      )
+        a(
+          :href="link.urlLink"
+        ).socials__item-link
+          svg.socials__item-pic
+            use(
+              :xlink:href="link.imgLink"
+            )
+          //- img(
+          //-   :src="link.imgLink"
+          //- ).socials__item-pic
 </template>
+
+<script>
+export default {
+  data() {
+    return {
+      links: [
+        {
+          urlLink: "https://vk.com/aspershing",
+          imgLink: "./src/assets/img/icons/sprite.svg#vk"
+        },
+        {
+          urlLink: "https://github.com/aspershin",
+          imgLink: "./src/assets/img/icons/sprite.svg#github"
+        },
+        {
+          urlLink: "#",
+          imgLink: "./src/assets/img/icons/sprite.svg#in"
+        }
+      ]
+    }
+  },
+}
+</script>
 
 <style src="../styles/common/main.scss" lang="scss" scoped>
 
