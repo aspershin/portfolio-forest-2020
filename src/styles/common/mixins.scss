@@ -1,0 +1,27 @@
+// desktop 1800px
+@mixin desktopWide {
+  @media screen and (min-wigth: 1300px) {
+    @content;
+  }
+}
+
+// desktop 1200px
+@mixin desktop {
+  @media screen and (max-wigth: 1200px) {
+    @content;
+  }
+}
+
+// tablets
+@mixin tablets {
+  @media screen and (max-wigth: 768px) {
+    @content;
+  }
+}
+
+// phones
+@mixin phones {
+  @media screen and (max-wigth: 480px) {
+    @content;
+  }
+}

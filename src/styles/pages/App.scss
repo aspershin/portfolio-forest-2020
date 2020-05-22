@@ -6,6 +6,21 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+
+  @include desktopWide {
+    background: url('../../assets/img/bg/welcome-bg-1800.jpg') center center no-repeat;
+    background-size: cover;
+  }
+
+  @include tablets {
+    background: url('../../assets/img/bg/welcome-bg-768.jpg') center center no-repeat;
+    background-size: cover;
+  }
+
+  @include phones {
+    background: url('../../assets/img/bg/welcome-bg-320.jpg') center center no-repeat;
+    background-size: cover;
+  }
 }
 
 .welcome-main {
@@ -21,6 +36,14 @@
   height: 120px;
   display: flex;
   justify-content: flex-end;
+
+  @include tablets {
+    justify-content: center;
+  }
+
+  @include phones {
+    justify-content: center;
+  }
 }
 
 .welcome-container {
@@ -72,6 +95,13 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+
+  @include phones {
+    margin-bottom: 10px;
+    flex-direction: column;
+    height: 60px;
+    align-items: center;
+  }
 }
 
 .welcome-footer__div {
@@ -79,6 +109,10 @@
   height: 18px;
   padding-right: 5px;
   padding-left: 5px;
+
+  @include phones {
+    border: none;
+  }
 }
 
 .welcome-footer__div:last-child {

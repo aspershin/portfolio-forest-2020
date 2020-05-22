@@ -1,5 +1,6 @@
 @import './base.scss';
 @import './fonts.scss';
+@import './mixins.scss';
 
 @import '../pages/App.scss';
 @import '../components/authButton.scss';
@@ -7,4 +8,4 @@
 @import '../components/socials.scss';
 @import '../components/welcomeLoginButton.scss';
 
-@import './media.scss';
+// @import './media.scss';
