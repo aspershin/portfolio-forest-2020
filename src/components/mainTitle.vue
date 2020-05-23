@@ -1,9 +1,12 @@
 <template lang="pug">
   .main-title
     .main-title__image
-      img(
-        :src="srcImgTitle"
-      ).main-title__image-pic
+      .main-title__image-wrap(
+        :style=`"background-image: url(./src/assets/img/content/Keanu_Reeves.jpg)"`
+      )
+        img(
+          :src="srcImgTitle"
+        ).main-title__image-pic
     .main-title__name Александр Васильев
     .main-title__description Личный сайт веб-разработчика
 
@@ -17,8 +20,12 @@ export default {
       type: String,
       default: './src/assets/img/content/Keanu_Reeves.jpg'
     }
+  },
+  data() {
+    return {
+      srcImgTitleWrap: './src/assets/img/content/Keanu_Reeves.jpg'
+    }
   }
-  
 }
 </script>
 

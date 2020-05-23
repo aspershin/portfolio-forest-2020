@@ -9,15 +9,27 @@
 .main-title__image {
   width: 140px;
   height: 140px;
-  border-radius: 50%;
+  // border-radius: 50%;
+  // overflow: hidden;
+  // background-size: cover;
+  // border: 1px solid white;
+  text-align: center;
+}
+
+.main-title__image-wrap {
   overflow: hidden;
+  height: 140px;
+  display: flex;
+  justify-content: center;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
 }
 
 .main-title__image-pic {
-  width: 140px;
-  height: 140px;
-  background-position: center center;
-  background-size: cover;
+  max-height: 100%;
+  display: none;
 }
 
 .main-title__name {
