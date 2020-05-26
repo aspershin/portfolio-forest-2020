@@ -1,7 +1,7 @@
 .wrapper {
 
   height: 100vh;
-  width: 100%;
+  width: 100vw;
   background: url('../../assets/img/bg/welcome-bg-1200.jpg') center center no-repeat;
   background-size: cover;
   display: flex;
@@ -25,7 +25,7 @@
 }
 
 .welcome-main {
-  width: 100%;
+  width: 100vw;
   height: inherit;
   display: flex;
   flex-direction: column;
@@ -33,7 +33,7 @@
 }
 
 .welcome-header {
-  width: 100%;
+  width: 100vw;
   height: 120px;
   display: flex;
   justify-content: flex-end;
@@ -48,22 +48,28 @@
 }
 
 .welcome-container {
-  width: 100%;
+  width: 100vw;
   height: 395px;
+  display: flex;
+  justify-content: center;
 }
 
 .welcome-content {
   width: 380px;
-  height: 395px;
+  height: 395;
   display: flex;
   flex-direction: column;
-  margin: 0 auto;
+  justify-content: center;
+
+  @include phones {
+    max-width: 95%;
+  }
 }
 
 
 .welcome-content__up {
   width: 380px;
-  height: 350px;
+  height: 380px;
   background-color: rgba($color: #122620, $alpha: 0.6);
   display: flex;
   flex-direction: column;

@@ -2,7 +2,7 @@
   .main-title
     .main-title__image
       .main-title__image-wrap(
-        :style=`"background-image: url(./src/assets/img/content/Keanu_Reeves.jpg)"`
+        :style="srcImgTitleWrap"
       )
         img(
           :src="srcImgTitle"
@@ -23,7 +23,7 @@ export default {
   },
   data() {
     return {
-      srcImgTitleWrap: './src/assets/img/content/Keanu_Reeves.jpg'
+      srcImgTitleWrap: 'background-image: url(./src/assets/img/content/Keanu_Reeves.jpg)'
     }
   }
 }

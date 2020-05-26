@@ -1,11 +1,16 @@
+// Общее, миксины, шрифты
 @import './mixins.scss';
 @import './base.scss';
 @import './fonts.scss';
 
+// Страницы
 @import '../pages/App.scss';
+@import '../pages/login.scss';
+
+// Компоненты
 @import '../components/authButton.scss';
 @import '../components/mainTitle.scss';
 @import '../components/socials.scss';
 @import '../components/welcomeLoginButton.scss';
-
-// @import './media.scss';
+@import '../components/authInput.scss';
+@import '../components/inputImg.scss';

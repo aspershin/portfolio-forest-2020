@@ -1,15 +1,15 @@
 <template lang="pug">
-  div
-    a(href="#").auth-link
-      .auth-button {{authButtonName}}
+    img(
+      :src="imgInputSrc"
+    ).auth-input__img-pic
+  
 </template>
 
 <script>
 export default {
   props: {
-    authButtonName: {
-      type: String,
-      default: 'Авторизоваться'
+    imgInputSrc: {
+      type: String
     }
   }
 }
