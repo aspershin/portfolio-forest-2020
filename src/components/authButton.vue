@@ -1,6 +1,8 @@
 <template lang="pug">
   div
-    a(href="#").auth-link
+    a(
+      :href="authButtonHref"
+    ).auth-link
       .auth-button {{authButtonName}}
 </template>
 
@@ -10,6 +12,10 @@ export default {
     authButtonName: {
       type: String,
       default: 'Авторизоваться'
+    },
+    authButtonHref: {
+      type: String,
+      default: '#'
     }
   }
 }

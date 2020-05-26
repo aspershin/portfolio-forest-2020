@@ -1,0 +1,13 @@
+.loginCheck__check + label:before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  margin-right: 10px;
+  border-radius: 5%;
+  background: center center no-repeat #618f55;
+}
+
+.loginCheck__check:checked + label:before {
+  background-image: url(../../assets/img/icons/check.png);
+}

@@ -3,7 +3,9 @@
     .wrapper
       .welcome-main
         .welcome-header
-          auth-button
+          auth-button(
+            :authButtonHref="hrefToLogin"
+          )
         .welcome-container
           .welcome-content
             .welcome-content__up
@@ -44,7 +46,8 @@ export default {
   name: 'app',
   data () {
     return {
-      msg: 'Welcome to Your Vue.js App'
+      msg: 'Welcome to Your Vue.js App',
+      hrefToLogin: './login.html'
     }
   }
 }

@@ -1,7 +1,7 @@
 <template lang="pug">
   .welcomeLoginButton
     a(
-      href="#"
+      :href="hrefAuthButton"
       @mouseover="mouseoverButton"
     ).welcomeLoginButton__link
       .welcomeLoginButton__link-div {{title}}
@@ -13,6 +13,10 @@ export default {
     title: {
       type: String,
       default: 'Кнопка'
+    },
+    hrefAuthButton: {
+      type: String,
+      default: '#'
     }
   },
   methods: {

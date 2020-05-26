@@ -36,20 +36,23 @@
                       :imgInputSrc="inputImgPassword"
                     )
                   auth-input(
-                  inputPlaceholder="Пароль"
-                )
+                    inputPlaceholder="Пароль"
+                  )
+              .login-check
+                login-check
+                label(
+                  for="loginCheck"
+                ).loginCheck-label Я человек
+              login-robot
             .welcome-content__down
               .welcome-content__button
                 welcome-login-button(
-                  title="Мои работы"
+                  title="На главную"
+                  :hrefAuthButton="hrefToWelcome"
                 )
               .welcome-content__button
                 welcome-login-button(
-                  title="Обо мне"
-                )
-              .welcome-content__button
-                welcome-login-button(
-                  title="Блог"
+                  title="Войти"
                 )
         .welcome-footer
           .welcome-footer__div &copy Александр Васильев
@@ -63,6 +66,8 @@ import authButton from '../components/authButton'
 import authInput from '../components/authInput'
 import welcomeLoginButton from '../components/welcomeLoginButton'
 import inputImg from '../components/inputImg'
+import loginCheck from '../components/loginCheck'
+import loginRobot from '../components/loginRobot'
 
 export default {
   components: {
@@ -70,14 +75,17 @@ export default {
     authButton: authButton,
     authInput: authInput,
     welcomeLoginButton: welcomeLoginButton,
-    inputImg: inputImg
+    inputImg: inputImg,
+    loginCheck: loginCheck,
+    loginRobot: loginRobot
   },
   name: 'login',
   data () {
     return {
       msg: 'Welcome to Your Vue.js App',
       inputImgLogin: './src/assets/img/icons/login.png',
-      inputImgPassword: './src/assets/img/icons/password.png'
+      inputImgPassword: './src/assets/img/icons/password.png',
+      hrefToWelcome: './index.html'
     }
   }
 }

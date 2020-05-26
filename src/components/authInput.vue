@@ -1,5 +1,6 @@
 <template lang="pug">
   input(
+    type="input"
     :placeholder="inputPlaceholder"
   ).auth-input__input
 </template>

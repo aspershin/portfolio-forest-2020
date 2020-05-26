@@ -84,3 +84,20 @@
   border-radius: 50px;
   overflow: hidden;
 }
+
+.login-check {
+  display: flex;
+  width: 180px;
+  height: 25px;
+  align-items: center;
+  justify-content: center;
+}
+
+.loginCheck-label {
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 120px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+}
