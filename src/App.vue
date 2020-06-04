@@ -19,6 +19,7 @@
               .welcome-content__button
                 welcome-login-button(
                   title="Обо мне"
+                  :href="hrefToAbout"
                 )
               .welcome-content__button
                 welcome-login-button(
@@ -47,7 +48,8 @@ export default {
   data () {
     return {
       msg: 'Welcome to Your Vue.js App',
-      hrefToLogin: './login.html'
+      hrefToLogin: './login.html',
+      hrefToAbout: './about.html'
     }
   }
 }
