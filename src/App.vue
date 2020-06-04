@@ -18,8 +18,8 @@
                 )
               .welcome-content__button
                 welcome-login-button(
+                  :hrefAuthButton="hrefToAbout"
                   title="Обо мне"
-                  :href="hrefToAbout"
                 )
               .welcome-content__button
                 welcome-login-button(

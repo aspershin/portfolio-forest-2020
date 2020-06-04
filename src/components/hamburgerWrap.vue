@@ -1,5 +1,5 @@
 <template lang="pug">
-  .hamburger-wrap.active
+  .hamburger-wrap
 </template>
 
 <script>
