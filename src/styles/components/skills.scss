@@ -1,0 +1,17 @@
+.skills {
+  max-width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.skills-group {
+  width: 100%;
+  height: 33.3%;
+}
+
+.skills-group__list {
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+}

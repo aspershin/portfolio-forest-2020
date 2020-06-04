@@ -12,9 +12,6 @@
             use(
               :xlink:href="link.imgLink"
             )
-          //- img(
-          //-   :src="link.imgLink"
-          //- ).socials__item-pic
 </template>
 
 <script>

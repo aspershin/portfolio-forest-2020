@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "name": "HTML",
+    "percents": 30,
+    "type": 1
+  },
+  {
+    "id": 2,
+    "name": "CSS",
+    "percents": 60,
+    "type": 1
+  },
+  {
+    "id": 3,
+    "name": "JavaScript",
+    "percents": 30,
+    "type": 1
+  },
+  {
+    "id": 4,
+    "name": "Node.js",
+    "percents": 40,
+    "type": 2
+  },
+  {
+    "id": 5,
+    "name": "PHP",
+    "percents": 50,
+    "type": 2
+  },
+  {
+    "id": 6,
+    "name": "MongoDB",
+    "percents": 60,
+    "type": 2
+  },
+  {
+    "id": 7,
+    "name": "MySQL",
+    "percents": 60,
+    "type": 2
+  },
+  {
+    "id": 8,
+    "name": "Git",
+    "percents": 70,
+    "type": 3
+  },
+  {
+    "id": 9,
+    "name": "Gulp",
+    "percents": 80,
+    "type": 3
+  },
+  {
+    "id": 10,
+    "name": "Webpack",
+    "percents": 90,
+    "type": 3
+  },
+  {
+    "id": 11,
+    "name": "Vue.js",
+    "percents": 20,
+    "type": 1
+  }
+]

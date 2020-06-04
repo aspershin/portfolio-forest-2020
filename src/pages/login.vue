@@ -5,6 +5,7 @@
         .welcome-header
           auth-button(
             authButtonName="Вернуться"
+            :authButtonHref="hrefToWelcome"
           )
         .login-container
           .login-content

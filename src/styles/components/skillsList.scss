@@ -1,0 +1,38 @@
+.skills-list {
+  width: 580px;
+  max-width: 100%;
+  height: 33.3%;
+  display: flex;
+  flex-direction: column;
+
+  @include tablets {
+    justify-content: center;
+    align-items: center;
+  }
+
+  @include phones {
+    justify-content: center;
+    align-items: center;
+  }
+
+}
+
+.skill-title {
+  font-family: 'robotomedium';
+  font-size: 28px;
+  color: #566358;
+}
+
+.skills-item-table {
+  max-width: 100%;
+  height: auto;
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  
+  @include phones {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+}

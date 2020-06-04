@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import App from './App.vue'
 import login from './pages/login.vue'
+import about from './pages/about.vue'
 
 new Vue({
   el: '#app',
@@ -10,4 +11,9 @@ new Vue({
 new Vue({
   el: '#login',
   render: h => h(login)
+})
+
+new Vue({
+  el: '#about',
+  render: h => h(about)
 })

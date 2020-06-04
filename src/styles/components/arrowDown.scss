@@ -1,0 +1,15 @@
+.arrow-down {
+  width: 26px;
+  height: 16px;
+  z-index: 100;
+}
+
+.arrow-down__img {
+  width: 26px;
+  height: 16px;
+  fill-opacity: 70%;
+}
+
+.arrow-down__img:hover {
+  fill-opacity: 100%;
+}

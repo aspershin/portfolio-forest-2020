@@ -1,0 +1,215 @@
+.footer__container {
+  width: 100%;
+  height: 185px;
+  display: flex;
+  flex-direction: column;
+
+  @include tablets {
+    height: auto;
+  }
+
+  @include phones {
+    height: auto;
+  }
+}
+
+.footer__up {
+  width: 100%;
+  height: 145px;
+  background-color: rgba($color: #53595c, $alpha: .85);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  @include tablets {
+    height: auto;
+  }
+  @include phones {
+    height: auto;
+  }
+}
+
+.footer__up-container {
+  width: 100%;
+  height: 110px;
+  display: flex;
+
+  @include tablets {
+    flex-wrap: wrap;
+    height: auto;
+  }
+
+  @include phones {
+    flex-wrap: wrap;
+    height: auto;
+  }
+}
+
+.footer__up-div {
+  width: 33.3%;
+  height: 100px;
+  border-right: 1px rgba($color: #fff, $alpha: .5) solid;
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+
+  @include tablets {
+    width: 45%;
+    height: auto;
+    margin-top: 20px;
+  }
+
+  @include phones {
+    border-right: none;
+    border-bottom: 1px rgba($color: #fff, $alpha: .5) solid;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+
+.footer__up-div:nth-child(2) {
+  @include tablets {
+    border: none;
+  }
+
+  @include phones {
+    border-bottom: 1px rgba($color: #fff, $alpha: .5) solid;
+  }
+}
+
+.footer__up-div:last-child {
+  border: none;
+
+  @include tablets {
+    width: 100%;
+    padding-right: 20px;
+    margin-bottom: 10px;
+  }
+}
+
+.footer__up-div__text {
+  width: 310px;
+  font-size: 16px;
+  color: rgba($color: #fff, $alpha: .7);
+
+  @include tablets {
+    width: auto;
+  }
+
+  @include phones {
+    width: auto;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.footer__up-div__text--left {
+  font-family: 'robotolight';
+}
+
+.footer__up-div__text p {
+  padding: 5px;
+  margin: 0;
+
+  @include phones {
+    text-align: center;
+  }
+}
+
+.footer__up-div__text:last-child {
+
+  @include tablets {
+    width: 100%;
+  }
+
+  @include phones {
+    flex-direction: column;
+  }
+  
+}
+
+.footer__up-div__text--right {
+  font-family: 'robotolight_italic';
+}
+
+.footer__up-div__text--right p:last-child{
+  font-family: 'robotobold_italic';
+}
+
+.footer__up-div__socials {
+  margin-top: 30px;
+
+  @include phones {
+    margin-top: 0;
+  }
+}
+
+.footer__up-div__nav {
+  @include phones {
+    margin-bottom: 20px;
+  }
+}
+
+.footer__down {
+  width: 100%;
+  height: 40px;
+  background-color: rgba($color: #80a971, $alpha: .85);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  @include phones {
+    height: auto;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+
+.footer__down-div {
+  height: 18px;
+  padding-right: 5px;
+  padding-left: 5px;
+  font-family: 'robotolight';
+  font-size: 16px;
+  color: #fff;
+  border-right: 2px solid #fff;
+
+  @include phones {
+    margin-bottom: 10px;
+    height: auto;
+  }
+}
+
+.footer__down-div:first-child {
+  @include phones {
+    width: 100%;
+    text-align: center;
+    border: none;
+  }
+}
+
+.footer__down-div:nth-child(2) {
+  @include phones {
+    width: auto;
+  }
+}
+
+.footer__down-div:last-child {
+  border: none;
+
+  @include phones {
+    flex-wrap: no-wrap;
+    width: auto;
+  }
+}

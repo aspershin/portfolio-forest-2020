@@ -37,7 +37,7 @@ module.exports = {
         ],
       },
       {
-        test: /\.(woff|woff2|eot|ttf)(\?v=\d+\.\d+\.\d+)?$/,
+        test: /\.(woff|woff2|eot|ttf)$/,
         loader: 'file-loader',
         options: {
           name: '[name].[ext]',
@@ -85,6 +85,7 @@ module.exports = {
     },
     extensions: ['*', '.js', '.vue', '.json']
   },
+
   devServer: {
     historyApiFallback: true,
     noInfo: false,

@@ -1,0 +1,27 @@
+.hamburger {
+  width: 40px;
+  height: 36px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  // cursor: pointer;
+}
+
+.hamburger:hover .hamburger-stripe {
+  background-color: #4e8839;
+}
+
+.hamburger-link {
+  width: 40px;
+  height: 36px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.hamburger-stripe {
+  width: 40px;
+  height: 5px;
+  background-color: #fff;
+  border-radius: 2px;
+}

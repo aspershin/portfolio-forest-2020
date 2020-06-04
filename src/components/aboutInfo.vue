@@ -1,0 +1,40 @@
+<template lang="pug">
+  .about-info
+    .about-info__image
+      .about-info__image-wrap(
+        :style="aboutInfoImgWrap"
+      )
+        img(
+          :src="aboutInfoImg"
+        ).about-info__image-pic
+    .about-info__title Кто я
+      .login-content__up-svg
+        svg
+          line(
+            x1="0"
+            y1="0"
+            x2="90"
+            y2="0"
+            stroke-width="10"
+            stroke="#566358"
+          )
+    .about-info__text
+      p Я веб разработчик из Новосибирска. Мне 27 лет. Я занимаюсь разработкой современных сайтов и приложений. Мне нравится делать интересные и современные проекты.
+      p  Этот сайт я сделал в рамках обучения в Школе онлайн образования <strong>LoftSchool</strong>. Чуть позже я освежу в нём свой контент. А пока посмотрите, как тут всё классно и красиво!
+        
+</template>
+
+<script>
+export default {
+  data() {
+    return {
+      aboutInfoImgWrap: 'background-image: url(./src/assets/img/content/Keanu_Reeves-big.jpg)',
+      aboutInfoImg: './src/assets/img/content/Keanu_Reeves-big.jpg'
+    }
+  }
+}
+</script>
+
+<style src="../styles/common/main.scss" lang="scss" scoped>
+
+</style>

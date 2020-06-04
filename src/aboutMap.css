@@ -1,0 +1,11 @@
+.map-logo {
+  width: 32px;
+  height: 32px;
+  vertical-align: middle;
+  background-size: cover;
+}
+
+.map-baloon__header {
+  margin-left: 5px;
+  color: #4e8839;
+}
