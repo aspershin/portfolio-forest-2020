@@ -168,8 +168,9 @@
 }
 
 .about-main__description-main {
-  width: 445px;
-  height: 670px;
+  margin-top: 15px;
+  max-width: 445px;
+  height: auto;
   display: flex;
   justify-content: center;
   align-items: center;

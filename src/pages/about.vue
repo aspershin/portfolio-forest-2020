@@ -37,7 +37,6 @@
           contacts
       footer.about-footer
         about-footer
-    
 </template>
 
 <script>
