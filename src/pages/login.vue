@@ -4,7 +4,7 @@
       .welcome-main
         .welcome-header
           auth-button(
-            authButtonName="Вернуться"
+            authButtonName="На главную"
             :authButtonHref="hrefToWelcome"
           )
         .login-container

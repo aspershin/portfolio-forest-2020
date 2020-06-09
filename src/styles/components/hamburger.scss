@@ -4,7 +4,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  // cursor: pointer;
+  cursor: pointer;
 }
 
 .hamburger:hover .hamburger-stripe {
@@ -17,6 +17,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+
 }
 
 .hamburger-stripe {

@@ -1,0 +1,19 @@
+.hamburger-wrap-item {
+  margin-bottom: 50px;
+}
+
+.hamburger-wrap-item:hover {
+  border-bottom: 3px #fff solid;
+}
+
+.hamburger-wrap-link {
+  font-family: 'sansus_webissimoregular';
+  font-size: 63px;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+
+  @include phones {
+    font-size: 48px;
+  }
+}
