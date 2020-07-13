@@ -15,7 +15,7 @@
             p Всегда пишите код так, будто сопровождать его будет склонный к насилию психопат, который знает, где вы живете.
             p — Martin Golding
     .footer__down
-      .footer__down-div &copy Александр Васильев
+      .footer__down-div &copy Андрей Першин
       .footer__down-div Создано с любовью в Loftschool
       .footer__down-div 2020
 </template>
