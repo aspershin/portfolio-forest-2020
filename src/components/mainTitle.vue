@@ -7,7 +7,7 @@
         img(
           :src="srcImgTitle"
         ).main-title__image-pic
-    .main-title__name Андрй Першин
+    .main-title__name Андрeй Першин
     .main-title__description Личный сайт веб-разработчика
 
 </template>
