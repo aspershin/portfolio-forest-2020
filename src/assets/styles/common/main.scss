@@ -1,0 +1,39 @@
+// Общее, миксины, шрифты
+@import './mixins.scss';
+@import './base.scss';
+@import './fonts.scss';
+
+// Страницы
+@import '../pages/App.scss';
+@import '../pages/login.scss';
+@import '../pages/about.scss';
+@import '../pages/admin.scss';
+
+// Компоненты
+@import '../components/authButton.scss';
+@import '../components/mainTitle.scss';
+@import '../components/socials.scss';
+@import '../components/welcomeLoginButton.scss';
+@import '../components/authInput.scss';
+@import '../components/inputImg.scss';
+@import '../components/loginCheck.scss';
+@import '../components/loginRobot.scss';
+@import '../components/hamburger.scss';
+@import '../components/arrowDown.scss';
+@import '../components/aboutInfo.scss';
+@import '../components/aboutSkills.scss';
+@import '../components/skills.scss';
+@import '../components/skillsList.scss';
+@import '../components/skillsItem.scss';
+@import '../components/aboutFooter.scss';
+@import '../components/footerNavigation.scss';
+@import '../components/contacts.scss';
+@import '../components/hamburgerWrap.scss';
+@import '../components/hamburgerWrapList.scss';
+@import '../components/hamburgerWrapItem.scss';
+@import '../components/adminHeader.scss';
+@import '../components/adminTabs.scss';
+@import '../components/adminContent.scss';
+@import '../components/adminSkillsList.scss';
+@import '../components/adminSkillsItem.scss';
+@import '../components/adminSkillInput.scss';

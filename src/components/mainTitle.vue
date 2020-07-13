@@ -7,7 +7,7 @@
         img(
           :src="srcImgTitle"
         ).main-title__image-pic
-    .main-title__name Александр Васильев
+    .main-title__name Андрй Першин
     .main-title__description Личный сайт веб-разработчика
 
 </template>
@@ -18,17 +18,17 @@ export default {
   props: {
     srcImgTitle: {
       type: String,
-      default: './src/assets/img/content/Keanu_Reeves.jpg'
+      default: './src/assets/img/content/me.jpg'
     }
   },
   data() {
     return {
-      srcImgTitleWrap: 'background-image: url(./src/assets/img/content/Keanu_Reeves.jpg)'
+      srcImgTitleWrap: 'background-image: url(./src/assets/img/content/me.jpg)'
     }
   }
 }
 </script>
 
-<style src="../styles/common/main.scss" lang="scss" scoped>
+<style src="../assets/styles/common/main.scss" lang="scss" scoped>
 
 </style>

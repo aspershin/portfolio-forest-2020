@@ -33,8 +33,8 @@ export default {
     return {
       contactsLinks: [
         {
-          name: 'anderbite',
-          url: "https://vk.com/aspershing",
+          name: 'pershin',
+          url: "skype:live:.cid.a2595bc97f4e1519",
           img: "./src/assets/img/icons/sprite.svg#skype"
         },
         {
@@ -58,6 +58,6 @@ export default {
 }
 </script>
 
-<style src="../styles/common/main.scss" lang="scss" scoped>
+<style src="../assets/styles/common/main.scss" lang="scss" scoped>
 
 </style>

@@ -28,13 +28,13 @@
 export default {
   data() {
     return {
-      aboutInfoImgWrap: 'background-image: url(./src/assets/img/content/Keanu_Reeves-big.jpg)',
-      aboutInfoImg: './src/assets/img/content/Keanu_Reeves-big.jpg'
+      aboutInfoImgWrap: 'background-image: url(./src/assets/img/content/me.jpg)',
+      aboutInfoImg: './src/assets/img/content/me.jpg'
     }
   }
 }
 </script>
 
-<style src="../styles/common/main.scss" lang="scss" scoped>
+<style src="../assets/styles/common/main.scss" lang="scss" scoped>
 
 </style>

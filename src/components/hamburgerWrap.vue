@@ -13,7 +13,7 @@
 <script>
 
 import hamburgerWrapList from '../components/hamburgerWrapList'
-import { bus } from '../main'
+import { bus } from '../../main'
 
 export default {
   components: {
@@ -40,6 +40,6 @@ export default {
 }
 </script>
 
-<style src="../styles/common/main.scss" lang="scss" scoped>
+<style src="../assets/styles/common/main.scss" lang="scss" scoped>
 
 </style>

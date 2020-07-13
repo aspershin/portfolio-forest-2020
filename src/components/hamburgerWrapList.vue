@@ -43,6 +43,6 @@ export default {
 }
 </script>
 
-<style src="../styles/common/main.scss" lang="scss" scoped>
+<style src="../assets/styles/common/main.scss" lang="scss" scoped>
 
 </style>

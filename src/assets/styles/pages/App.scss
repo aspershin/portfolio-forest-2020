@@ -1,0 +1,138 @@
+.wrapper {
+
+  height: 100vh;
+  width: 100%;
+  background: url('../../img/bg/welcome-bg-1200.jpg') center center no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  @include desktopWide {
+    background: url('../../img/bg/welcome-bg-1800.jpg') center center no-repeat;
+    background-size: cover;
+  }
+
+  @include tablets {
+    background: url('../../img/bg/welcome-bg-768.jpg') center center no-repeat;
+    background-size: cover;
+  }
+
+  @include phones {
+    background: url('../../img/bg/welcome-bg-320.jpg') center center no-repeat;
+    background-size: cover;
+  }
+}
+
+.welcome-main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.welcome-header {
+  width: 100%;
+  height: 120px;
+  display: flex;
+  justify-content: flex-end;
+
+  @include tablets {
+    justify-content: center;
+  }
+
+  @include phones {
+    justify-content: center;
+  }
+}
+
+.welcome-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcome-content {
+  max-width: 370px;
+  height: 395;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  @include phones {
+    max-width: 320px;
+  }
+}
+
+
+.welcome-content__up {
+  width: 370px;
+  height: 380px;
+  background-color: rgba($color: #122620, $alpha: 0.6);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 40px;
+
+  @include phones {
+    max-width: 320px;
+  }
+}
+
+.welcome-content__down {
+  width: 370px;
+  height: 45px;
+  display: flex;
+
+  @include phones {
+    max-width: 320px;
+  }
+}
+
+.welcome-content__button {
+  height: 45px;
+  max-width: 50%;
+  border-right: 1px solid #9fb99d;
+  flex-grow: 1;
+}
+
+.welcome-content__button:last-child {
+  border: none;
+}
+
+.welcome-footer {
+  width: 100%;
+  height: 24px;
+  color: #fff;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-bottom: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  @include phones {
+    margin-bottom: 10px;
+    flex-direction: column;
+    height: 60px;
+    align-items: center;
+  }
+}
+
+.welcome-footer__div {
+  border-right: 2px solid #fff;
+  height: 18px;
+  padding-right: 5px;
+  padding-left: 5px;
+
+  @include phones {
+    border: none;
+  }
+}
+
+.welcome-footer__div:last-child {
+  border: none;
+}

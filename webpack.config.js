@@ -3,8 +3,8 @@ var webpack = require('webpack')
 
 module.exports = {
   entry: {
-    main: './src/main.js',
-    styles: './src/styles/index.js'
+    main: './main.js',
+    styles: './src/assets/styles/index.js'
   },
   output: {
     path: path.resolve(__dirname, './dist'),

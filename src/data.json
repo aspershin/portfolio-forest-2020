@@ -20,49 +20,49 @@
   {
     "id": 4,
     "name": "Node.js",
-    "percents": 40,
+    "percents": 10,
     "type": 2
   },
   {
     "id": 5,
     "name": "PHP",
-    "percents": 50,
+    "percents": 0,
     "type": 2
   },
   {
     "id": 6,
     "name": "MongoDB",
-    "percents": 60,
+    "percents": 0,
     "type": 2
   },
   {
     "id": 7,
     "name": "MySQL",
-    "percents": 60,
+    "percents": 0,
     "type": 2
   },
   {
     "id": 8,
     "name": "Git",
-    "percents": 70,
+    "percents": 50,
     "type": 3
   },
   {
     "id": 9,
     "name": "Gulp",
-    "percents": 80,
+    "percents": 50,
     "type": 3
   },
   {
     "id": 10,
     "name": "Webpack",
-    "percents": 90,
+    "percents": 40,
     "type": 3
   },
   {
     "id": 11,
     "name": "Vue.js",
-    "percents": 20,
+    "percents": 30,
     "type": 1
   }
 ]

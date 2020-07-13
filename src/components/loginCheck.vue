@@ -5,6 +5,6 @@
   ).loginCheck__check.visually-hidden
 </template>
 
-<style src="../styles/common/main.scss" lang="scss" scoped>
+<style src="../assets/styles/common/main.scss" lang="scss" scoped>
 
 </style>

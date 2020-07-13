@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
+
+body {
+  position: relative;
+}
+
+h1 {
+  font-family: 'robotomedium';
+  font-size: 28px;
+  color: #fff;
+}

@@ -1,0 +1,19 @@
+.admin-tabs {
+  display: flex;
+}
+
+.admin__list {
+  display: flex;
+  background-color: #ccc;
+  list-style: none;
+}
+
+.admin__item {
+  border-right: 2px solid #fff;
+  display: block;
+}
+
+.admin__link {
+  padding: 20px;
+  display: block;
+}

@@ -18,6 +18,6 @@
         label(for="robot-radio-no").login-robot__label Нет
 </template>
 
-<style src="../styles/common/main.scss" lang="scss" scoped>
+<style src="../assets/styles/common/main.scss" lang="scss" scoped>
 
 </style>

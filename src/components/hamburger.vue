@@ -10,7 +10,7 @@
 
 <script>
 import hamburgerWrapVue from './hamburgerWrap.vue';
-import { bus } from '../main'
+import { bus } from '../../main'
   
 export default {
   methods: {
@@ -22,6 +22,6 @@ export default {
 }
 </script>
 
-<style src="../styles/common/main.scss" lang="scss" scoped>
+<style src="../assets/styles/common/main.scss" lang="scss" scoped>
 
 </style>
