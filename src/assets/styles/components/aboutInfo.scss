@@ -83,8 +83,14 @@
   }
 }
 
-// .about-info__text p {
-//   width: auto;
-//   padding-left: 10px;
-//   padding-right: 10px;
-// }
+.about-info__text p a {
+  text-decoration: none;
+}
+
+.about-info__text p a:hover {
+  text-decoration: underline;
+}
+
+.about-info__text p a:visited {
+  color: #566358;
+}
