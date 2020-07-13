@@ -48,8 +48,8 @@ export default {
           img: "./src/assets/img/icons/sprite.svg#phone"
         },
         {
-          name: 'Москва, Фрунзенская наб., д. 34',
-          url: "#",
+          name: 'г. Москва',
+          url: "",
           img: "./src/assets/img/icons/sprite.svg#map_marker"
         }
       ]
