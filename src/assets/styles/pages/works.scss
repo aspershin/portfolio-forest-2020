@@ -1,0 +1,295 @@
+.works-main {
+  height: 300px;
+}
+
+.works-slider {
+  width: 100%;
+  height: 800px;
+  display: flex;
+
+  @include tablets {
+    height: auto;
+  }
+
+  @include phones {
+    height: auto;
+  }
+}
+
+.works-slider__container {
+  width: 100%;
+  height: 800px;
+  display: flex;
+
+  @include tablets {
+    flex-direction: column;
+    height: auto;
+  }
+
+  @include phones {
+    flex-direction: column;
+    height: auto;
+  }
+}
+
+.works-slider__left {
+  width: 50%;
+  height: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ebefe2;
+
+  @include tablets {
+    width: 100%;
+    height: 300px;
+  }
+
+  @include phones {
+    width: 100%;
+    height: 300px;
+  }
+}
+
+.works-slider__description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 350px;
+  height: 400px;
+
+  @include tablets {
+    height: 300px;
+  }
+
+  @include phones {
+    height: 300px;
+  }
+}
+
+.works-slider__title {
+  width: 350px;
+  font-family: 'sansus_webissimoregular';
+  font-size: 35px;
+  text-transform: uppercase;
+  color: #566358;
+  text-align: center;
+}
+
+.works-slider__line {
+  width: 90px;
+  height: 10px;
+  margin-top: 20px;
+}
+
+.works-slider__desc {
+  font-family: 'robotomedium';
+  font-size: 16px;
+  color: #4e8839;
+  margin-top: 20px;
+}
+
+.works-slider__link {
+  text-decoration: none;
+  margin-top: 30px;
+}
+
+.works-slider__link-wrap {
+  width: 200px;
+  height: 45px;
+  background-color: #6c9c5a;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.works-slider__link-wrap:hover {
+  background-color: #4e8839;
+}
+
+.works-slider__link-image {
+  width: 20px;
+  height: 20px;
+  background-image: url('../../img/icons/link.svg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-right: 10px;
+}
+
+.works-slider__link-text {
+  font-family: 'robotomedium';
+  font-size: 16px;
+  color: #fff;
+}
+
+.works-slider__div {
+  width: 500px;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+
+  @include tablets {
+    width: 300px;
+    height: 450px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  @include phones {
+    width: 300px;
+    height: 450px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
+
+.works-slider__left-div {
+  width: 350px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+
+  @include tablets {
+    height: 300px;
+  }
+
+  @include phones {
+    height: 300px;
+  }
+}
+
+.works-slider__items {
+  display: flex;
+  will-change: right;
+  width: 500px;
+  height: 600px;
+  position: relative;
+
+  @include tablets {
+    width: 100%;
+    height: 400px;
+  }
+
+  @include phones {
+    width: 100%;
+    height: 400px;
+  }
+}
+
+.works-slider__left-items {
+  display: flex;
+  will-change: right;
+  width: 350px;
+  height: 400px;
+  position: relative;
+
+  @include tablets {
+    height: 300px;
+  }
+
+  @include phones {
+    height: 300px;
+  }
+}
+
+.works-slider__item {
+  width: 500px;
+  height: 600px;
+
+  @include tablets {
+    width: 300px;
+    height: 400px;
+  }
+
+  @include phones {
+    width: 300px;
+    height: 400px;
+  }
+}
+
+.works-slider__img {
+  width: 500px;
+  height: 600px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  @include tablets {
+    width: 300px;
+    height: 400px;
+  }
+
+  @include phones {
+    width: 300px;
+    height: 400px;
+  }
+}
+
+.works-slider__right {
+  width: 50%;
+  height: 800px;
+  background-color: #e1e4d7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  @include tablets {
+    width: 100%;
+    height: auto;
+  }
+
+  @include phones {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.works-slider__arrows {
+  display: flex;
+  margin-top: 40px;
+
+  @include tablets {
+    margin-top: 10px;
+  }
+
+  @include phones {
+    margin-top: 10px;
+  }
+}
+
+.works-slider__main a {
+  text-decoration: none;
+}
+
+.slider-arrow-left {
+  margin-right: 20px;
+}
+
+.slider-arrow-right {
+  margin-left: 20px;
+}
+
+.slider-arrow-pic {
+  width: 40px;
+  height: 40px;
+  fill: #4e8839;
+}
+
+.slider-arrow-pic:hover {
+  fill: #71a1f4;
+}
+
+.works-footer {
+  height: 185px;
+  z-index: 100;
+}

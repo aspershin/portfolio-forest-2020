@@ -18,6 +18,7 @@
       .footer__down-div &copy Андрей Першин
       .footer__down-div Создано с любовью в Loftschool
       .footer__down-div 2020
+      .footer__down-div
 </template>
 
 <script>

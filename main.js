@@ -3,6 +3,7 @@ import App from './App.vue'
 import login from './login'
 import about from './about'
 import admin from './admin'
+import works from './works'
 import store from './src/store'
 import router from './src/router'
 
@@ -34,4 +35,11 @@ new Vue({
   store,
   router,
   render: h => h(admin)
+});
+
+new Vue({
+  el: '#works',
+  store,
+  router,
+  render: h => h(works)
 });

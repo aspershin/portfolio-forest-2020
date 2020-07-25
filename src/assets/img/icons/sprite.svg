@@ -94,5 +94,17 @@
     </g>
   </symbol>
 
+  <symbol id="arrow_left" viewBox="0 0 512 512">
+    <g>
+      <path d="M512,0L0,256l512,256L353.6,256L512,0z M70.4,256L427.2,80L318.4,256l108.8,176L70.4,256z"/>
+    </g>
+  </symbol>
+
+  <symbol id="arrow_right" viewBox="0 0 512 512">
+    <g>
+      <path d="M508.8,256L3.2,0L160,256L3.2,512L508.8,256z M438.4,256L88,433.6L195.2,256L88,78.4L438.4,256z"/>
+    </g>
+  </symbol>
+
 
 </svg>
