@@ -1,5 +1,22 @@
-.works-main {
-  height: 300px;
+.works-triangles {
+  display: flex;
+  height: 310px;
+  margin-top: -155px;
+  align-items: flex-end;
+}
+
+.works-triangles__wrapper {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #373e42;
+  font-family: 'sansus_webissimoregular';
+  font-size: 63px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
 }
 
 .works-slider {
@@ -47,7 +64,7 @@
 
   @include phones {
     width: 100%;
-    height: 300px;
+    height: auto;
   }
 }
 
@@ -64,7 +81,7 @@
   }
 
   @include phones {
-    height: 300px;
+    height: auto;
   }
 }
 
@@ -75,12 +92,20 @@
   text-transform: uppercase;
   color: #566358;
   text-align: center;
+
+  @include phones {
+    font-size: 20px;
+  }
 }
 
 .works-slider__line {
   width: 90px;
   height: 10px;
   margin-top: 20px;
+
+  @include phones {
+    display: none;
+  }
 }
 
 .works-slider__desc {
@@ -88,11 +113,20 @@
   font-size: 16px;
   color: #4e8839;
   margin-top: 20px;
+
+  @include phones {
+    font-size: 12px;
+    margin-top: 5px;
+  }
 }
 
 .works-slider__link {
   text-decoration: none;
   margin-top: 30px;
+
+  @include phones {
+    margin-top: 5px;
+  }
 }
 
 .works-slider__link-wrap {
@@ -164,7 +198,9 @@
   }
 
   @include phones {
-    height: 300px;
+    height: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
   }
 }
 
@@ -198,7 +234,7 @@
   }
 
   @include phones {
-    height: 300px;
+    height: auto;
   }
 }
 
@@ -282,11 +318,11 @@
 .slider-arrow-pic {
   width: 40px;
   height: 40px;
-  fill: #4e8839;
+  fill: #4CAF50
 }
 
 .slider-arrow-pic:hover {
-  fill: #71a1f4;
+  fill: #4e8839;
 }
 
 .works-footer {

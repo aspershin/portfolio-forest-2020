@@ -12,8 +12,19 @@
           main-title
         .about-header__down
           arrow-down
-      section.about-triangles
-      section.about-main.works-main
+      section.about-triangles.works-triangles
+        .works-triangles__wrapper
+          .works-triangles__text Мои работы
+          .works-slider__line
+            svg
+              line(
+                x1="0"
+                y1="0"
+                x2="90"
+                y2="0"
+                stroke-width="3"
+                stroke="#566358"
+              )
       section.works-slider
         .works-slider__container
           .works-slider__left
@@ -110,12 +121,12 @@
                 a(href="#").slider-arrow-left#slider-arrow-left
                   svg.slider-arrow-pic
                     use(
-                      xlink:href="./src/assets/img/icons/sprite.svg#arrow_left"
+                      xlink:href="./src/assets/img/icons/sprite.svg#left"
                     )
                 a(href="#").slider-arrow-right#slider-arrow-right
                   svg.slider-arrow-pic
                     use(
-                      xlink:href="./src/assets/img/icons/sprite.svg#arrow_right"
+                      xlink:href="./src/assets/img/icons/sprite.svg#right"
                     )  
       footer.works-footer
         about-footer
