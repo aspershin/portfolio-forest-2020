@@ -28,8 +28,8 @@
 export default {
   data() {
     return {
-      aboutInfoImgWrap: 'background-image: url(./src/assets/img/content/me.jpg)',
-      aboutInfoImg: './src/assets/img/content/me.jpg'
+      aboutInfoImgWrap: 'background-image: url(./src/assets/img/content/infoImage.jpg)',
+      aboutInfoImg: './src/assets/img/content/infoImage.jpg'
     }
   }
 }

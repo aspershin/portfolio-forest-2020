@@ -3,6 +3,10 @@
   height: 310px;
   margin-top: -155px;
   align-items: flex-end;
+
+  @include phones {
+    height: 220px;
+  }
 }
 
 .works-triangles__wrapper {
@@ -12,11 +16,22 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  margin-bottom: 20px;
+
+  @include phones {
+    height: 80px;
+  }
+}
+
+.works-triangles__text {
   color: #373e42;
   font-family: 'sansus_webissimoregular';
   font-size: 63px;
   text-transform: uppercase;
-  margin-bottom: 20px;
+
+  @include phones {
+    font-size: 45px;
+  }
 }
 
 .works-slider {
@@ -101,7 +116,10 @@
 .works-slider__line {
   width: 90px;
   height: 10px;
-  margin-top: 20px;
+  margin-top:  20px;
+}
+
+.works-slider__line-right {
 
   @include phones {
     display: none;
@@ -199,8 +217,8 @@
 
   @include phones {
     height: auto;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
 }
 

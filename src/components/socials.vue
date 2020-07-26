@@ -28,7 +28,7 @@ export default {
           imgLink: "./src/assets/img/icons/sprite.svg#github"
         },
         {
-          urlLink: "#",
+          urlLink: "https://www.linkedin.com/in/андрей-першин-47b8061b2/",
           imgLink: "./src/assets/img/icons/sprite.svg#in"
         }
       ]

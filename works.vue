@@ -32,7 +32,7 @@
               .works-slider__left-items#works-slider__left-items
                 .works-slider__description
                   .works-slider__title Сайт-Портфолио веб-разработчика
-                  .works-slider__line
+                  .works-slider__line.works-slider__line-right
                     svg
                       line(
                         x1="0"
@@ -42,7 +42,7 @@
                         stroke-width="3"
                         stroke="#566358"
                       )
-                  .works-slider__desc HTML, CSS, JAVASCRIPT
+                  .works-slider__desc HTML, CSS, JavaScript, Vue.js
                   a(href="#").works-slider__link
                     .works-slider__link-wrap
                       .works-slider__link-image
@@ -59,13 +59,13 @@
                         stroke-width="3"
                         stroke="#566358"
                       )
-                  .works-slider__desc HTML, CSS, JAVASCRIPT
+                  .works-slider__desc Комфорт, сервис, низкие цены!
                   a(href="#").works-slider__link
                     .works-slider__link-wrap
                       .works-slider__link-image
                       .works-slider__link-text Посмотреть сайт
                 .works-slider__description
-                  .works-slider__title Сайт фитнес-центра Планета Фитнеса
+                  .works-slider__title Сайт фитнес-центра Афродита
                   .works-slider__line
                     svg
                       line(
@@ -76,13 +76,13 @@
                         stroke-width="3"
                         stroke="#566358"
                       )
-                  .works-slider__desc HTML, CSS, JAVASCRIPT
+                  .works-slider__desc Быстрее, выше, сильнее!
                   a(href="#").works-slider__link
                     .works-slider__link-wrap
                       .works-slider__link-image
                       .works-slider__link-text Посмотреть сайт
                 .works-slider__description
-                  .works-slider__title Сайт Коворкинга
+                  .works-slider__title Сайт Бургерной
                   .works-slider__line
                     svg
                       line(
@@ -93,7 +93,7 @@
                         stroke-width="3"
                         stroke="#566358"
                       )
-                  .works-slider__desc HTML, CSS, JAVASCRIPT
+                  .works-slider__desc Самые вкусные бургеры в городе!
                   a(href="#").works-slider__link
                     .works-slider__link-wrap
                       .works-slider__link-image
@@ -103,19 +103,19 @@
               .works-slider__items#works-slider__items
                 .works-slider__item
                   img(
-                    src="./src/assets/img/works/work-1.png"
+                    src="./src/assets/img/works/work-1.jpg"
                   ).works-slider__img
                 .works-slider__item
                   img(
-                    src="./src/assets/img/works/work-2.png"
+                    src="./src/assets/img/works/work-2.jpg"
                   ).works-slider__img
                 .works-slider__item
                   img(
-                    src="./src/assets/img/works/work-3.png"
+                    src="./src/assets/img/works/work-3.jpg"
                   ).works-slider__img
                 .works-slider__item
                   img(
-                    src="./src/assets/img/works/work-4.png"
+                    src="./src/assets/img/works/work-4.jpg"
                   ).works-slider__img
               .works-slider__arrows
                 a(href="#").slider-arrow-left#slider-arrow-left

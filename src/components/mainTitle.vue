@@ -4,9 +4,13 @@
       .main-title__image-wrap(
         :style="srcImgTitleWrap"
       )
-        img(
-          :src="srcImgTitle"
-        ).main-title__image-pic
+        a(
+          href="../../index.html"
+          title="На главную"
+        ).main-title__link
+          img(
+            :src="srcImgTitle"
+          ).main-title__image-pic
     .main-title__name Андрeй Першин
     .main-title__description Личный сайт веб-разработчика
 
@@ -18,12 +22,12 @@ export default {
   props: {
     srcImgTitle: {
       type: String,
-      default: './src/assets/img/content/me.jpg'
+      default: './src/assets/img/content/avatar.jpg'
     }
   },
   data() {
     return {
-      srcImgTitleWrap: 'background-image: url(./src/assets/img/content/me.jpg)'
+      srcImgTitleWrap: 'background-image: url(./src/assets/img/content/avatar.jpg)'
     }
   }
 }

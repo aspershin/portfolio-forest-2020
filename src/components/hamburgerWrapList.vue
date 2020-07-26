@@ -23,7 +23,7 @@ export default {
       hamburgerWrapItemLinks: [
         {
           name: 'Мои работы',
-          url: '#'
+          url: './works.html'
         },
         {
           name: 'Блог',

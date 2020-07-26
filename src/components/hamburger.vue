@@ -15,7 +15,6 @@ import { bus } from '../../main'
 export default {
   methods: {
     hamburgerActive: function() {
-      console.log('hello world');
       bus.$emit('search-value', this.value);
     }
   }
