@@ -48,7 +48,7 @@
     "gulp-rename": "^2.0.0",
     "gulp-sourcemaps": "^2.6.5",
     "gulp-svgmin": "^3.0.0",
-    "node-sass": "^4.5.3",
+    "node-sass": "^7.0.0",
     "nodemon": "^2.0.4",
     "postcss-advanced-variables": "^3.0.1",
     "postcss-easy-import": "^3.0.0",
